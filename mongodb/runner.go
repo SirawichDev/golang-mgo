@@ -29,6 +29,6 @@ func Runner() error{
 	//if err := connect.DropCollection(); err != nil {
 	//	return err
 	//}
-	fmt.Printf("State: %v ", agent)
+	fmt.Printf("agent: %v ", agent)
 	return nil
 }
